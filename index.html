@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ESCOLHA SEU GENERO</h1>
+    <div class="container">
+        <button onclick="window.location.href='index.html'" style="background-color: #FF6F61;">
+            <img src="hip-hop-palavra-texto-arte-de-rua-graffiti-marcacao_397094-7.avif" alt="Hip Hop">
+        </button>
+
+        <button onclick="window.location.href='pagode.html'" style="background-color: #6A0572;">
+            <img src="pagode.jpg" alt="Pagode">
+        </button>
+
+        <button onclick="window.location.href='pop.html'" style="background-color: #FFD166;">
+            <img src="pop.jpg" alt="Pop">
+        </button>
+
+        <button onclick="window.location.href='sertanejo.html'" style="background-color: #118AB2;">
+            <img src="sertanajo.jpg" alt="Sertanejo">
+        </button>
+
+        <button onclick="window.location.href='rock.html'" style="background-color: #073B4C;">
+            <img src="rock.jpg" alt="Rock">
+        </button>
+    </div>
+</body>
+</html>
